@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    margin-bottom: 2;
+    padding: 0px;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #2a3036;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #40455f;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar a:hover{
+background: #300f2d
+}
+
+.logo{
+    display: flex;
+    margin-left: 10px;
+}
+.logo a{
+    font-size: 180%;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo a:hover{
+    background: #300f2d
+}
+
+.header {
+    height: 65vh !important;
+    background: url(IMG/Dpoint.PNG) no-repeat center;
+    background-size: cover;
+}
+
+p{
+    color: #fff;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: beige;
+    background: #474f77;
+}
+
+a {
+    background: none;
+    padding: 100px;
+    border: none; /* Elimina el borde predeterminado */
+    color: rgb(255, 255, 255); /* Color del texto */
+    padding: 10px 20px; /* Ajuste el relleno */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Elimina la decoración del texto */
+    display: inline-block; /* Permite que el botón se comporte como un bloque en línea */
+    cursor: pointer; /* Cambia el cursor a mano al pasar el mouse sobre el botón */  
+}
+a img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 260px;
+}
+.country :hover{
+
+
+    border: 2px solid #16191b;
+}
+.creditos {
+    height:fit-content;
+    background: #080811;
+}
+.logoso {
+    font-size: 180%;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.t {
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #ffffff;
+    background: #757991;
+}
+.Text1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 150%;
+}
+ul, ol{
+    list-style: none;
+}
+.navbar li a{
+    background: #40455f;
+    padding: 10px 15px;
+    display: block;
+    font-size: 120%;
+}
+.navbar > li{
+    float: left;
+}
+.navbar li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.navbar li:hover > ul{
+    display: block;
+}
+.navbar li ul li {
+    position: relative;
+}
+.navbar li ul li ul{
+    right:-140px;
+    top: 0px;
+}
+.images {
+
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 50%;
+    height: 20%;
+    border: 5px solid #580505;
+
+}
+.Text2{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top:3% ;
+    margin-bottom: 3%;
+    font-size: 130%;
+}
+#titulosogerman{
+    height: 50vh;
+    background: url(IMG/GERMAN_FLAG_xd.webp) no-repeat center;
+    background-size:cover ;
+}
+#titulosousa{
+    height: 50vh;
+    background: url(IMG/Flag_of_the_United_States.svg) no-repeat center;
+    background-size:cover ;
+}
+#titlecountrygerman{
+    font-size: 250%;
+    font-weight: 600;
+    color: rgb(241, 241, 234);
+    background: #000000;
+}
+#titlecountryusa{
+    font-size: 250%;
+    font-weight: 600;
+    color: rgb(241, 241, 234);
+    background: #302270;
+}
+#titlecountryurss{
+    font-size: 250%;
+    font-weight: 600;
+    color: rgb(241, 241, 234);
+    background: #9b0808;
+}
+#titulosourss{
+    height: 50vh;
+    background: url(IMG/Flag_of_the_new_USSR_\(2\).png) no-repeat center;
+    background-size:cover ;
+}
+.subtgerman {
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #ffffff;
+    background: #616161;
+}
+.subtusa {
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #ffffff;
+    background: #757991;
+}
+.subturss {
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #ffffff;
+    background: #9b1919;
+}
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin:0 auto;
+    margin-left: 7%;
+}
+section img{
+
+    width: 80px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor:cell;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}

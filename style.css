@@ -4,14 +4,12 @@
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
-
 }
 
 body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #2a3036;
-    cursor: url(IMG/tankcursor.png),auto;
 }
 
 .header {
@@ -241,4 +239,3 @@ section img:hover{
     font-size: 120%;
     color: #5d43cf;
 }
-
